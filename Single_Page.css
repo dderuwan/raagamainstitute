@@ -1,0 +1,52 @@
+.multipletab {
+  width: 50%;
+  margin: 0 auto;
+  background: blue;
+  overflow: hidden;
+  position: relative;
+}
+.tab-buttons {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 2px solid #666;
+}
+.tab-buttons > span {
+  display: block;
+  text-align: center;
+  float: left;
+  cursor: pointer;
+  width: 20%;
+  background: green;
+}
+.tab-buttons > span.active {
+  background: pink;
+  position: relative;
+}
+.tab-content {
+  position: relative;
+}
+.tab-content > div {
+
+  background-color: yellow;
+}
+
+.tab-nav > span {
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  display: block;
+  height: 35px;
+  width: 35px;
+}
+.tab-nav > span.next {
+  right: 10px;
+  background-color: red;
+}
+.tab-nav > span.prev {
+  left: 10px;
+  background-color: red;
+}
+
+.colorebianco {
+  fill: #ffffff !important;
+}

@@ -1,0 +1,8 @@
+/* Initially display the first form and hide the second form */
+#formFirst {
+    display: block;
+}
+
+#formSecond {
+    display: none;
+}

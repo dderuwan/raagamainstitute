@@ -1,0 +1,208 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("font/Quicksand-Regular.otf");
+}
+
+@font-face {
+  font-family: "Honey script";
+  src: url("font/HoneyScript-Light.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Quicksand;
+}
+
+/* ============================================> Home <========================================================== */
+.carousel {
+  padding: 0;
+  margin: 0;
+}
+
+#carouselExampleSlidesOnly img {
+  height: 55vh;
+}
+
+.home-topic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #0047b2);
+}
+
+.home-topic h1 {
+  color: rgb(0, 0, 0);
+  font-size: 52px;
+  font-weight: bolder;
+}
+
+.home-topic h4 {
+  color: rgb(0, 0, 0);
+}
+
+/* ============================================> Courses <========================================================== */
+
+
+.popular-topic h1 {
+  padding-top: 24px;
+  padding-left: 54px;
+  font-size: 42px;
+  font-weight: bold;
+  color: #191919;
+}
+
+.courses-p {
+  padding: 24px;
+}
+
+
+@media screen and (max-width: 1400px) {
+  #Brands{
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.473);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .popular-topic h1 {
+    padding: 0%;
+  }
+  #Brands{
+    margin-top: 10%;
+    transform: scale(.98);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #Instructor span{
+    font-size: 30px !important;
+  }
+  #Instructor h6{
+    font-size: 15px !important;
+  }
+  #Instructor a {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 3% !important;
+    font-size: 18px !important;
+  }
+  .row.popular-topic span{
+    display: flex;
+    justify-content: center !important;
+  }
+}
+
+
+/*============================================================== Notice Board============================================================ */
+.notice {
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+}
+
+.access {
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+}
+
+.Process {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.library-container {
+  padding: 10px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+
+  /* box-shadow: 10px 10px 5px lightblue; */
+}
+
+.event {
+  margin-left: 12px;
+}
+.ddd {
+  display: flex;
+  justify-content: center;
+}
+.library {
+  width: 120px;
+  height: 110px;
+  margin-bottom: 10px;
+}
+
+.quick {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ppp {
+  display: flex;
+  justify-content: center;
+}
+
+.ppp h1 {
+  font-weight: bold;
+}
+
+.quick-container {
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+}
+
+.recent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0;
+}
+
+.recent h2 {
+  font-size: 18px;
+  font-weight: 900;
+  background-color: #fde000;
+  color: rgb(0, 0, 0);
+  padding: 7px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.recent h2:hover {
+  transform: scale(1.19);
+}
+
+.hidden{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 2000ms;
+}
+
+.right{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(+100%);
+  transition: all 2000ms;
+}
+
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+

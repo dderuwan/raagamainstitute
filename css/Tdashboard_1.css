@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("font/Quicksand-Regular.otf");
+}
+  
+@font-face {
+    font-family: "Honey script";
+    src: url("font/HoneyScript-Light.ttf");
+}
+  
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Quicksand;
+}
+
+/* ========================================================first image====================================================== */
+.upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: rgb(0, 0, 15);
+}
+
+.upper h1{
+    color: white;
+}
